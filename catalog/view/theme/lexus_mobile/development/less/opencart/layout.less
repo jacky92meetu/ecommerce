@@ -1,0 +1,195 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+/*
+ * HEADER 
+ */
+ #page{
+    margin: 0 auto;
+    background-color: @white;
+}
+body{
+    &.layout-boxed-md{
+        background: url("@{image-theme-path-base}pattern2.png");
+        #page{  max-width: @container-desktop; .box-shadow(0 0 5px #888); background: @white;}
+    }
+    &.layout-boxed-lg{
+        background: url("@{image-theme-path-base}pattern2.png");
+        #page{  max-width: @container-lg-desktop; .box-shadow(0 0 5px #888); background: @white; }
+    }
+    &.fullwidth{ }
+ }
+.topbar  {
+    padding: 6px 15px;
+    .border-exclude-top(1px; solid; @topbar-color);
+    color: #999999;
+    .login a{
+        &:hover{
+            color: @theme-color-hover;
+        }
+    }
+    ul {
+        li {
+            float: left;
+            a {
+                font-size: @topbar-font-size;
+                color: #868686;
+            }
+            &:hover a{
+                color:@theme-color-hover;   
+            }
+            .text-link{
+                display: inline-block; 
+            }
+        }
+        
+    }
+}
+
+
+#header-main{
+    .header-wrap{
+        height: 85px;
+        margin: auto;
+    }
+    .inner{
+        display:table;
+        position: relative;
+        height: 100%;
+        & > *{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}
+ 
+/*
+ * NAVIGATION
+ */
+#pav-mainnav {
+    .mainnav-wrap {
+        background: @mainnav-wrap-bg;
+        margin-bottom: @box-module-margin - 3;
+    }
+}
+
+
+/*
+ * SLIDESHOW 
+ */
+#pav-slideshow {}
+
+/*
+ * SHOWCASE 
+ */
+#pav-showcase {}
+
+/*
+ * PROMOTION TOP 
+ */
+#pav-promotion {}
+/*
+ * MAIN CONTENT
+ */  
+#content {
+    min-height: 400px;
+    margin-bottom: 25px;
+}
+
+.sidebar  [class*="col-"] {
+    width: 100%
+}
+
+#pav-mass-bottom {
+   
+}
+/* FOOTER s*/
+#footer {
+    .box { 
+        .box-heading{
+            .clearboxstyle(); 
+            color: @footer-heading-color;
+            font-size: @footer-heading-font-size;
+            margin-bottom: 10px;
+            padding-left: 0;
+            font-weight: bold;
+            &:before{
+                background: none;
+            }
+            &:after{
+                border-top: none;
+                border-bottom: none;
+            }
+        }
+        .box-content{
+            .clearboxstyle(); 
+        }
+    } 
+    .footer-top{}
+    .footer-center{}
+    .footer-bottom{
+        .newsletter-social{
+            border: 1px solid @gray-light;
+            padding: @footer-padding - 8;
+        }
+    }
+    h3 {
+        color: @footer-heading-color;
+        font-size: @footer-heading-font-size;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    .column {
+        a {
+            text-decoration: none;
+            color: @footer-link-color;
+            .transition ( padding 0.5s ease 0s);
+            &:hover {
+                color:@footer-link-hover-color;
+                padding-left: 10px;
+            }
+        }
+        ul {
+            li {
+                padding-bottom: 8px; 
+                overflow: hidden;
+                a {
+                    background: none;
+                    padding-left: 0;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}
+
+/* POWER BY */
+.powered {
+    background: @power-bg;
+    padding: @footer-padding; 
+    color:@gray-light;
+    overflow: hidden;
+    a{
+        color: @theme-color-secondary;
+    }
+    .paypal{
+        padding-top: @footer-padding - 5;
+    }
+}
+
+.banner {
+    div {
+        text-align: center;
+        width: 100%;
+        display: none;
+        img {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+

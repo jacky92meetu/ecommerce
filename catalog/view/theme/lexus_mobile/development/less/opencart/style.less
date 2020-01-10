@@ -1,0 +1,94 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+.box-services {
+    
+    .media-body{
+        background: url('@{image-theme-path}phone.png') no-repeat 0 8px;
+    	float: left;
+    	padding-left: 45px;
+    	z-index: 1;
+    }
+    span{
+    	font-size: 18px;
+    }
+}
+.fabox  {
+    color: @gray-darker;
+    display: block;
+    float: left;
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 8px;
+    font-size: @font-size-base + 3;
+    .rounded-corners(3px);
+    &:hover {
+        color: #fff;
+    }
+    i {
+        padding-left: 3px;
+    }
+}
+/*Social*/
+.social {
+    display: block;
+    margin-top: 15px;
+    .title-social{
+        color: @black;
+        float: left;
+        font-weight: 700;
+        line-height: 35px;
+        padding-right: 20px;
+        text-transform: uppercase;
+    }
+    li{
+    background: #5c5c5c;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    .rounded-corners(5px);
+    .transition (all 0.3s ease-in-out 0s);
+        .fa{
+            display: block;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+            .transition (all 0.5s ease-in-out 0s);
+        }
+        &:hover{
+            background: @theme-color-hover;
+            .rounded-corners (50%);
+        }
+        &:hover [class^="fa-"], 
+        &:hover [class*=" fa-"]{
+            -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+        span > span{
+            display: none;
+        }
+    }
+    [class^="fa-"], 
+    [class*=" fa-"] {
+        color: #fff;
+        font-size: 18px;
+        line-height: 37px;
+        .transition (all 0.5s ease-in-out 0s);
+    }
+}
+.contact-form{
+    margin-bottom: @product-margin;
+}
+.footer-center .contact-us p{
+    padding-bottom: 10px;
+}
+

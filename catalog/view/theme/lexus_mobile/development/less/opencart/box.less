@@ -1,0 +1,212 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+// Center-align a block level element
+ 
+/* box */
+.box.producttabs{
+    .box-heading{
+        background: none;
+        padding-left: 0;
+        min-width: 90px;
+        margin-right: @box-module-margin + 9;
+        float: left;
+    }
+} 
+.sidebar{
+    .box{
+        .box-heading{
+            background-color: @red;
+            background-position: 6px -111px;
+            margin-bottom: 0;
+            padding-top: 5px;
+            padding-bottom: 3px;
+            color: #fff;
+            font-size: @box-module-heading-fontsize - 1;
+            font-weight: 500;
+            &:after{
+                border-top: none;
+                border-bottom: none;
+            }
+         }
+        .box-content{
+            background: #f9f9f9;
+            border: 1px solid #e9e9e9;
+            padding: @box-module-heading-padding;
+        }
+    }
+}
+.box{
+    &.special{
+        .box-heading{
+            background-color: @blue;
+            background-position: 5px -169px;
+        }
+        .box-content{
+            background: #fff;
+        }
+    }
+    &.pav-custom{
+        .box-content{
+            padding: 0;
+            border: none;
+        } 
+    }
+}  
+
+.box {
+    margin-bottom: @box-module-margin - 3;
+    position: relative;
+    .box-heading {
+        background-image: url('@{image-theme-path}bg-title.png');
+        background-repeat: no-repeat;
+        padding-left:@box-module-heading-padding*3;
+        font-family:@box-module-heading-font ;
+        font-size: @box-module-heading-fontsize;
+        font-weight: @box-module-heading-fontweight;
+        color: @box-module-heading-color;
+        text-transform: uppercase;
+        margin-bottom: @box-module-margin + 9;
+        .heading-image {
+            background: @blueDarker;
+            display: inline-block;
+            height: 30px;
+            margin-right: 10px;
+            text-align: center;
+            width: 28px;
+        }
+        &.highlighted1 {
+            background-image: url('@{image-theme-path}bg-title1.png');
+            background-repeat: no-repeat;
+        }
+        &:after{
+            border-top: 1px solid @box-module-heading-border;
+            border-bottom: 1px solid @box-module-heading-border;
+            position: absolute;
+            left: 0;
+            right: 0; 
+            content: "";
+            height: 3px;
+            display: block;
+            margin-top: 5px;
+        }
+        span{
+            line-height: 28px;
+        }
+    }
+    .box-content {
+
+    }
+    /* box styles */
+    &.highlighted,
+    &.orange,
+    &.dark,
+    &.green,
+    &.maroon,
+    &.blue,
+    &.gray,
+    &.pink,
+    &.red {
+        .box-heading {
+            border-bottom:1px dashed @white;
+            color:@white;
+        }
+        
+       
+    }
+
+    &.orange {
+        .box-heading{
+            background:lighten(@orange, 15%);
+        }
+        .box-content{ 
+            background:@orange;
+        } 
+        li{
+            border-top-color: lighten(@orange, 15%);
+        }
+        a{
+         color:#B66B00;
+             
+        &:hover{
+               color:#6F4100;
+               }
+        }
+    }
+    
+    &.dark {
+        background:@black;
+        a{
+         color:#777;
+             
+        &:hover{
+               color:#888;
+               }
+        }
+    }
+    &.green {
+        background:@green;
+        a{
+         color:#63E063;
+             
+        &:hover{
+               color:#43F043;
+               }
+        }
+    }
+    &.maroon {
+        background:#F35D34;
+        a{
+         color:#B4300D;
+             
+        &:hover{
+               color:#C93F19;
+               }
+        }
+    }
+    &.blue {
+        background:@blue;
+        a{
+         color:#47C9FF;
+             
+        &:hover{
+               color:#0073A3;
+               }
+        }
+    }
+    &.gray {
+        background:@gray;
+        a{
+         color:#999;
+             
+        &:hover{
+               color:#777;
+               }
+        }
+    }
+    &.pink {
+        background:@pink;
+        a{
+         color:#FF5C8F;
+             
+        &:hover{
+            color:#FA2E6E;
+           }
+        }
+    }
+    &.red {
+        background:@red;
+        a{
+         color:#EE4538;
+             
+        &:hover{
+               color:#DA3F33;
+               }
+        }
+    }
+
+}

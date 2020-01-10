@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themeeditor>
+		 
+		<author>leotheme</author>
+	<name>Live Theme Editor</name>	
+	<layout>
+		
+		<item>
+			<block>Layout</block>
+			<default>fullwidth</default>
+			<option>
+				 <text>Full Width</text>
+				 <value>fullwidth</value>
+			</option> 
+			<option>
+				 <text>Boxed Large</text>
+				 <value>boxed-lg</value>
+			</option>
+			<option>
+				 <text>Boxed Medium</text>
+				 <value>boxed-md</value>
+			</option> 
+			 
+		</item>
+		<item>
+			<block>header</block>
+			<default>keep</default>
+			<option>
+				 <text>No Scrolling</text>
+				 <value></value>
+			</option> 
+			<option>
+				 <text>Keep Header When Scrolling</text>
+				 <value>keep-header</value>
+			</option> 
+
+		</item>
+
+	</layout>
+</themeeditor>

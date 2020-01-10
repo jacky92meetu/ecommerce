@@ -1,0 +1,94 @@
+.topbar ul li .text-link {
+  float: left;
+}
+#header #cart .heading {
+  background-position: 100% center;
+  float: left;
+  padding-left: 0;
+  padding-right: 45px;
+}
+.box-services .media-body {
+  background-position: 100% center;
+  float: right;
+  padding-left: 0;
+  padding-right: 45px;
+}
+.navbar-header {
+  float: right;
+}
+.navbar-nav > li {
+  float: right;
+}
+.dropdown-menu {
+  left: inherit;
+  right: 0;
+  float: right;
+}
+#pav-mainnav .megamenu .menu-icon {
+  background-position: right center !important;
+  padding-right: 30px;
+  padding-left: 0;
+}
+.pav-megamenu .dropdown .dropdown-menu li a:hover {
+  padding-right: 10px;
+}
+.box .box-heading {
+  background-position: 100% top;
+  padding-right: 39px;
+}
+.box.producttabs .box-heading {
+  padding-right: 0;
+}
+.box .box-heading .heading-image {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.carousel-controls {
+  left: 0;
+  right: inherit;
+}
+.producttabs .nav-tabs {
+  left: 0;
+  right: inherit;
+}
+.fabox {
+  float: right;
+  margin-left: 10px;
+}
+.htabs a {
+  float: right;
+}
+.addthis_default_style {
+  float: right;
+}
+.sidebar .box .box-heading {
+  background-position: 100% -111px;
+  padding-right: 45px;
+}
+.box.special .box-heading {
+  background-position: 100% -169px;
+}
+.sidebar .subcart {
+  left: 7px;
+  right: inherit;
+}
+.sidebar .product-meta {
+  text-align: right;
+}
+.sidebar .product-block .image {
+  float: right;
+  margin-left: 12px;
+  margin-right: 0;
+}
+.product-info .quantity-adder span,
+.product-info .quantity-adder span.add-down {
+  left: -18px;
+  right: inherit;
+}
+.product-info .quantity-adder {
+  margin-left: 32px;
+  margin-right: 0;
+}
+#footer .box .box-heading {
+  padding-right: 0;
+}

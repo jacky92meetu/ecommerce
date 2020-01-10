@@ -1,0 +1,32 @@
+.box-products {
+	position:relative;
+}
+.producttabs .carousel-control{
+	z-index:10
+}
+
+.nav{
+	padding:0;
+	margin:0
+}
+
+.producttabs .tab-content, .producttabs .box-product{
+	overflow:inherit
+}
+/*Tab*/
+	/*tab-nav*/
+	.producttabs .nav-tabs {
+		text-align: right;
+	}
+	.producttabs .nav-tabs .category-name{
+		float: left;
+	}
+	.product-tab .nav-tabs{
+		border-bottom: none;
+	}
+	.producttabs .nav-tabs li > a{
+	    color: #848587;
+	    padding: 4px 15px;
+	    font-weight: 400;
+	    margin-bottom: 5px;
+	}

@@ -1,0 +1,63 @@
+.pav-megamenu{
+  position: relative; 
+}
+.pavo-widget .menu-title{
+    font-size: 16px;
+    padding-bottom: 20px;
+    display: block;
+}
+.pavo-widget .cart{
+  display: none;
+}
+.video-menu{
+  margin-left: 15px;
+}
+.pavo-widget .menu-content img{
+  margin-top: 15px;
+}
+.pavo-widget .menu-content p,
+.pavo-widget .menu-content h3{
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+.widget-product-list .product-block {
+ border: none;
+ padding: 0;
+ text-align: left;
+}
+.widget-product-list .image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 0;
+    width: auto;
+}
+.widget-product-list .product-block:hover .image a {
+ opacity: 1;
+}
+.widget-product-list .name a {
+ font-weight: normal !important;
+ font-size: 14px !important ;
+ line-height: 25px !important;
+ }
+ .widget-product-list .product-block .price  {
+ font-size: 14px;
+ font-weight: bold;
+ margin-top: 0;
+ }
+.widget-product-list .product-block:hover .price {
+    display: block;
+}
+.widget-product-list .product-block .button {
+ line-height: 28px;
+ height: 28px;
+ padding: 0 10px;
+}
+.widget-banner {
+}
+.widget-banner .w-banner {
+    float: left;
+    margin: 6px 10px;
+}
+.hidden-title .menu-title{
+   display:  none;
+}

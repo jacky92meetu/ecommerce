@@ -1,0 +1,33 @@
+form {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+input[type='text'], input[type='password'], textarea {
+	background:@input-bg;
+	border: 1px solid @input-border;
+	.rounded-corners( @input-border-radius );
+	padding: 3px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+input.inputNew {
+	.rounded-corners(0);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    height: 27px;
+    width: 350px;
+    padding: 0 10px;
+    margin-right: -5px;
+}
+.button_mini {
+    background: #4A4A4A;
+    border: none;
+    color: #FFFFFF;
+    height: 27px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    .transition(background-color 0.5s linear 0s);
+}
+.button_mini:hover {
+    background: @theme-color-hover;
+}
